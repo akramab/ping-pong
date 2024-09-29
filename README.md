@@ -6,7 +6,7 @@ Message communication demo simulating how ICMP request-reply works on Rust and t
 
 This program will accept incoming TCP request, read the sender address (will always point to localhost / 127.0.0.1 
 with randomized port number if you do it locally), read the request content, and will reply back to the sender with
-the same content that the sender has.
+the same content that the sender send.
 
 # How to run
 1. Clone this repository
