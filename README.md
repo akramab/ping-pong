@@ -23,3 +23,6 @@ echo your_message_here | nc 127.0.0.1 8080
 ```
 
 4. You will receive the same message that you have just sent from the server if your request is succesfully received.
+
+# Example
+<img width="1470" alt="image" src="https://github.com/user-attachments/assets/bc5bde11-f230-4eed-aba4-4cbe65b340df">
