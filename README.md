@@ -2,6 +2,8 @@
 
 Message communication demo simulating how ICMP request-reply works on Rust and tokio library.
 
+<img width="904" alt="image" src="https://github.com/user-attachments/assets/47f6c0e0-373c-42ef-971a-399ef73c7df6">
+
 This program will accept incoming TCP request, read the sender address (will always point to localhost / 127.0.0.1 
 with randomized port number if you do it locally), read the request content, and will reply back to the sender with
 the same content that the sender has.
